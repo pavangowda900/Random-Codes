@@ -1,0 +1,8 @@
+def minimum(myList):
+  current_min = myList[0]  # Start by assuming the first number is smallest
+  for num in myList:       # Loop through each number in the list
+    if num < current_min:
+      current_min = num  # Update current_min if current number is less
+  return current_min
+
+print(minimum([55,67,23,76,99,33]))
