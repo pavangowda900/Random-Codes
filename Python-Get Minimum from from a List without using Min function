@@ -1,0 +1,12 @@
+myList=[55,67,23,76,99,33]
+
+def minimum(myList):
+    myList = sorted(myList)
+    return myList[0]
+
+def maximum(myList):
+    myList = sorted(myList)
+    return myList[-1]
+
+print(minimum([55,67,23,76,99,33]))
+print(maximum([55,67,23,76,99,33]))
